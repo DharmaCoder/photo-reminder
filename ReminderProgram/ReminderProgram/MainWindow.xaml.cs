@@ -1,18 +1,8 @@
 ﻿using Microsoft.Win32; // for open file dialog
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ReminderProgram
 {
@@ -36,7 +26,7 @@ namespace ReminderProgram
             }
             set
             {
-                ImagePath = imagePath;
+                ImagePath = value;
             }
         }
 
@@ -50,7 +40,7 @@ namespace ReminderProgram
             }
             set
             {
-                phrases = Phrases;
+                Phrases = value;
             }
         }
 
@@ -113,7 +103,7 @@ namespace ReminderProgram
             }
             else
             {
-                MessageBox.Show("Yeah quit trying to break shit.");
+                MessageBox.Show("Must enter a phrase and a photo!");
             }
         }
     }
