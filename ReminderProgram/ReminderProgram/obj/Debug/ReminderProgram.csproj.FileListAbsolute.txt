@@ -1,0 +1,32 @@
+c:\users\sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\bin\Debug\ReminderProgram.exe.config
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\bin\Debug\ReminderProgram.exe
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\bin\Debug\ReminderProgram.pdb
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\MainWindow.g.cs
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\App.g.cs
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram_MarkupCompile.cache
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram_MarkupCompile.lref
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\MainWindow.baml
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.g.resources
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.Properties.Resources.resources
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.csproj.GenerateResource.Cache
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.exe
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.pdb
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderWindow.g.cs
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderWindow.baml
+C:\Users\Sean2\documents\visual studio 2015\Projects\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.csprojResolveAssemblyReference.cache
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\bin\Debug\ReminderProgram.exe.config
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.exe
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.pdb
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\bin\Debug\ReminderProgram.exe
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\bin\Debug\ReminderProgram.pdb
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.csprojResolveAssemblyReference.cache
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderWindow.baml
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\MainWindow.g.cs
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderWindow.g.cs
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\App.g.cs
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram_MarkupCompile.cache
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram_MarkupCompile.lref
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\MainWindow.baml
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.g.resources
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.Properties.Resources.resources
+C:\Users\Seaan\Desktop\ReminderProgram\ReminderProgram\obj\Debug\ReminderProgram.csproj.GenerateResource.Cache
