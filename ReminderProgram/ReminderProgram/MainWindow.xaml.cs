@@ -15,7 +15,8 @@ namespace ReminderProgram
         //TODO - add sound effect option
         //TODO - add options for time intervals
         //TODO - Add a remove phrases Button
-        //TODO - clean up garbage code
+        //TODO - Add stop button
+        //TODO - clean up garbage code (mvvm)
 
         private string imagePath;
         public string ImagePath
@@ -67,26 +68,22 @@ namespace ReminderProgram
 
         private void addPictureButton_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                OpenFileDialog openFD = new OpenFileDialog();
-                openFD.Filter = "ImageFiles (*.bmp; *.jpg; *.jpeg,*.png)| *.BMP; *.JPG; *.JPEG; *.PNG";
-                if (openFD.ShowDialog() == true)
-                {
-                    imagePath = openFD.FileName;
-                    imagePathLabel.Content = imagePath;
-                    userPhotoBox.Source = new BitmapImage(new Uri(imagePath));
-                }
-                else
-                {
 
-                }
-            }
-            catch (Exception ex)
+            OpenFileDialog openFD = new OpenFileDialog();
+            openFD.Filter = "ImageFiles (*.bmp; *.jpg; *.jpeg,*.png)| *.BMP; *.JPG; *.JPEG; *.PNG";
+            if (openFD.ShowDialog() == true)
             {
-                MessageBox.Show(ex.Message);
+                imagePath = openFD.FileName;
+                imagePathLabel.Content = imagePath;
+                userPhotoBox.Source = new BitmapImage(new Uri(imagePath));
+                
+                //copy image to photo folder
+                //System.IO.File.Copy(imagePath, )
             }
-            
+            else
+            {
+
+            }
         }
 
         private void quitButton_Click(object sender, RoutedEventArgs e)
@@ -100,6 +97,12 @@ namespace ReminderProgram
             {
                 ReminderWindow reminderWindow = new ReminderWindow();
                 reminderWindow.Show();
+
+                //prevent user from creating multiple windows
+                if (reminderWindow.IsActive)
+                {
+                    startButton.IsEnabled = false;
+                }
             }
             else
             {

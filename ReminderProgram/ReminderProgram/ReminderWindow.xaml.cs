@@ -11,8 +11,9 @@ namespace ReminderProgram
     /// </summary>
     public partial class ReminderWindow : Window
     {
-        //TODO - make timespans customizable maybe?
+        //TODO - make timespans customizable?
 
+        //how long the image/phrases are displayed
         //short timespans for testing purposes - change later
         private TimeSpan isShowing = TimeSpan.FromSeconds(3);
         private TimeSpan isHidden = TimeSpan.FromSeconds(3);
@@ -21,7 +22,6 @@ namespace ReminderProgram
         private DispatcherTimer showTimer;
 
         List<string> userPhrases;
-
 
         public ReminderWindow()
         {
@@ -39,7 +39,7 @@ namespace ReminderProgram
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.Message);
             }
         }
 
